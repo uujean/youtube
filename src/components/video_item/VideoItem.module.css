@@ -1,0 +1,30 @@
+.video {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 25%;
+    padding: 10px;
+    margin-bottom: .2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+.video:hover {
+    transform: scale(1.02);
+}
+
+.thunbnail {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 0.9rem;
+}
+
+.channel {
+    font-size: 0.9rem;
+}
+
+.publishedAt {
+    font-size: 0.7rem;
+}
